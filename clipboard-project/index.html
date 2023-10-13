@@ -11,10 +11,77 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Simple Tailwind Starter</title>
+    <title>Clipboard Website</title>
   </head>
   <body>
-    <h1 class="mb-4 text-4xl">Welcome</h1>
-    <p>Start building your Tailwind project</p>
+    <!--Hero Section-->
+    <section
+      id="hero"
+      class="bg-no-repeat bg-contain bg-hero-pattern-mobile md:bg-hero-pattern-desktop"
+    >
+      <div class="px-10 pt-16 mb-32 section-container">
+        <!--Titles-->
+        <img src="images/logo.svg" alt="logo" class="mx-auto my-16" />
+        <h3>A history of everything you copy</h3>
+        <p class="max-w-3xl mx-auto mb-10 text-2xl text-grayishBlue">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+
+        <!--Buttons container-->
+        <div class="button-container">
+          <a
+            href="#"
+            class="p-4 px-8 duration-200 rounded-full shadow-lg bg-strongCyan hover:bg-opacity-80"
+          >
+            Download for iOS
+          </a>
+          <a
+            href="#"
+            class="p-4 px-8 duration-200 rounded-full shadow-lg bg-lightBlue hover:bg-opacity-80"
+          >
+            Download for Mac
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Snippets Section-->
+    <section id="snippets">
+      <div class="px-10 pt-16 mb-40 section-container">
+        <h3>Keep track of your snippets</h3>
+        <p class="max-w-3xl mx-auto mb-10 text-xl text-grayishBlue">
+          Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          iOS apps will help you organize everything.
+        </p>
+        <div
+          class="flex flex-col justify-center w-full space-y-12 md:flex-row md:space-y-0 md:space-x-10"
+        >
+          <img
+            src="images/image-computer.png"
+            alt="computer"
+            class="overflow-visible grow-0"
+          />
+          <!-- Feaatures -->
+          <div class="flex flex-col">
+            <h3>Quick Search</h3>
+            <p class="max-w-3xl mx-auto mb-10 text-xl text-grayishBlue">
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+            <h3>iCloud Sync</h3>
+            <p class="max-w-3xl mx-auto mb-10 text-xl text-grayishBlue">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+            <h3 c>Completely History</h3>
+            <p class="max-w-3xl mx-auto mb-10 text-xl text-grayishBlue">
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
