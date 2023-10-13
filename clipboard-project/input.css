@@ -6,10 +6,13 @@
   h3 {
     @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
   }
+  h5 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+  }
 }
 
 .section-container {
-  @apply max-w-6xl mx-auto text-center;
+  @apply max-w-6xl mx-auto text-center px-10;
 }
 
 .button-container {
