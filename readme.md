@@ -4,9 +4,9 @@ This repository is a collection of website templates created by Alejandro Bocchi
 
 ## Links To Templates
 
-### [Clipboard 🔗] (https://alejandro-bocchicchio-website-project.netlify.app/clipboard-project/)
+### [Clipboard](https://alejandro-bocchicchio-website-project.netlify.app/clipboard-project/) 🔗
 
-### [Loop Studios 🔗] (https://alejandro-bocchicchio-website-project.netlify.app/loopstudios/)
+### [Loop Studios](https://alejandro-bocchicchio-website-project.netlify.app/loopstudios/) 🔗
 
 ## Getting Started
 
