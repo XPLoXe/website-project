@@ -8,6 +8,8 @@ This repository is a collection of website templates created by Alejandro Bocchi
 
 ### <a href="https://alejandro-bocchicchio-website-project.netlify.app/loopstudios/" target="_blank">Loop Studios</a> 🔗
 
+### <a href="https://alejandro-bocchicchio-website-project.netlify.app/shortly/" target="_blank">Shortly</a> 🔗
+
 ## Getting Started
 
 To get started with this repository, simply clone the repository to your local machine and open the template files in your preferred text editor. Each template is contained in its own directory and includes all necessary files and assets.
