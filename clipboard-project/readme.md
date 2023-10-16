@@ -1,4 +1,4 @@
-# Simple Tailwind Starter
+# Clipboard Project
 
 You can see this project here:
-https://gilded-gingersnap-141ef9.netlify.app/clipboard-project/
+https://alejandro-bocchicchio-website-project.netlify.app/clipboard-project/
