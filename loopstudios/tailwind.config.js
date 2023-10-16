@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     screens: {
       sm: "480px",
+      hero: "576px",
       md: "768px",
       lg: "976px",
       xl: "1440px",
@@ -11,6 +12,10 @@ module.exports = {
       fontFamily: {
         sans: ["Josefin Sans", "sans-serif"],
         alata: ["Alata"],
+      },
+      backgroundImage: {
+        "hero-pattern-desktop": "url('../images/desktop/image-hero.jpg')",
+        "hero-pattern-mobile": "url('../images/mobile/image-hero.jpg')",
       },
     },
   },
