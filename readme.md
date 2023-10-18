@@ -12,7 +12,7 @@ This repository is a collection of website templates created by Alejandro Bocchi
 
 ### <a href="https://alejandro-bocchicchio-website-project.netlify.app/testimonial-grid/" target="_blank">Testimonial Grid</a> 🔗
 
-### <a href="https://alejandro-bocchicchio-website-project.netlify.app/fylo/" target="_blank">Testimonial Grid</a> 🔗
+### <a href="https://alejandro-bocchicchio-website-project.netlify.app/fylo/" target="_blank">Fylo</a> 🔗
 
 ## Getting Started
 
