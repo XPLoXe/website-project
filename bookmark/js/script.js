@@ -1,9 +1,28 @@
 //Array of tabs
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+const logo = document.getElementById("logo");
 
 // Tabs menu event listener
 tabs.forEach((tab) => tab.addEventListener("click", onTabClick));
+
+// Menu button event listener
+btn.addEventListener("click", () => toggleMenu());
+
+function toggleMenu() {
+  btn.classList.toggle("open");
+  menu.classList.toggle("hidden");
+  menu.classList.toggle("flex");
+
+  //If the menu is open
+  if (menu.classList.contains("flex")) {
+    logo.setAttribute("src", "./images/logo-bookmark-footer.svg");
+  } else {
+    logo.setAttribute("src", "./images/logo-bookmark.svg");
+  }
+}
 
 function onTabClick(e) {
   // Deactivate all tabs
