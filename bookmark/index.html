@@ -15,7 +15,33 @@
     <script src="js/script.js" defer></script>
     <title>Bookmark Website</title>
   </head>
-  <body>
-    <h1>Bookmark</h1>
+  <body class="overflow-x-hidden">
+    <nav class="container relative p-6 mx-auto">
+      <!-- Flex Container For Nav Items -->
+      <div class="flex items-center justify-between my-6 space-x-20">
+        <!-- Logo -->
+        <div class="z-30">
+          <img src="images/logo-bookmark.svg" alt="logo" id="logo" />
+        </div>
+        <!-- Menu Items -->
+        <div
+          class="items-center hidden space-x-10 uppercase md:flex text-grayishBlue"
+        >
+          <a href="#features" class="tracking-widest hover:text-softRed">
+            Features
+          </a>
+          <a href="#download" class="tracking-widest hover:text-softRed">
+            Download
+          </a>
+          <a href="#faq" class="tracking-widest hover:text-softRed"> FAQ </a>
+          <a
+            href="#"
+            class="px-6 py-2 text-white border-2 rounded-lg shadow-md bg-softRed border-softRed hover:text-softRed hover:bg-white"
+          >
+            Login
+          </a>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
