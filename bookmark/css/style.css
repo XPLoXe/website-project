@@ -496,6 +496,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .relative {
   position: relative;
 }
@@ -568,6 +572,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .flex-col {
